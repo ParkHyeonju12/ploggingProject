@@ -1,0 +1,279 @@
+
+
+
+
+
+
+/*-------------------사진 스토리------------------*/
+/*
+font-family: 'NanumGothicLight';
+font-family: 'NanumGothic';
+font-family: 'NanumGothicBold';
+font-family: 'NanumGothicExtraBold';
+*/
+.story-title{
+    width: 1200px;
+    min-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    padding-top: 80px;
+    border-bottom: 1px solid #515151;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+
+.story-title>h1 {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 500px;
+    font-size: 30px;
+    font-family: 'NanumGothicExtraBold';
+    font-weight: 1000;
+}
+#btn{
+	display:flex;
+	position:absolute;
+	right: 0px;
+    bottom: 6px;
+}
+.story-title> div a{
+    text-align: center;
+    margin: auto ;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+}
+
+.story-menu{
+    width: 200px;
+}
+.story-menu li{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+}
+.story-menu li :hover{
+    cursor: pointer;
+    color: red;
+}
+
+.story-menu a{
+    font-size: 20px;
+    font-family: 'NanumGothicBold';
+}
+.mid-content{
+    width: 1200px;
+    overflow: hidden;
+    margin: 70px auto;
+
+}
+.mid-content>div{
+    float: left;
+}
+.story-wrap{
+    text-align: center;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.story-box{
+    width: 320px;
+    height : 500px;
+    padding: 20px 0px;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+}
+.photo-box {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.photo-box img{
+    box-sizing: border-box;
+    width: 280px;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.photo-box:hover{
+    cursor: pointer;
+}
+.photo-box:hover img{
+    transform: scale(1.03);
+    transition: all 0.35s ease-in-out;
+    border-radius: 15px; 
+}
+/*좋아요부분*/
+.like-box{
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.like-box>span{
+    font-size: 30px;
+    line-height: 40px;
+}
+.like-box>span:hover{
+    cursor: pointer;
+
+}
+.story-text{
+    width: 280px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.story-text span{
+    margin: 0;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #515151;
+}
+.story-text span:hover{
+    color:darkgrey;
+    cursor: pointer;
+}
+.pix-area{
+    padding-top: 20px;
+}
+.pix-area .btn{
+    width: 80px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+#story-comment{
+    width: 400px;
+    height: 20px;
+}
+#storyWriter{
+    font-size: 15px;
+    font-family: 'NanumGothicExtraBold';
+}
+
+/*------상세페이지------*/
+.story-modal *{
+    padding: 0;
+    margin: 0;
+}
+.story-modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+
+}
+.modal-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modal-photo{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
+}
+
+.modal-photo img{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.modal-wrap{
+	margin-top:0;
+    width: 550px;
+    background-color: #ccc;
+    box-sizing: border-box;
+    max-height: 850px;
+    overflow: scroll;
+}
+.modal-wrap .modal-photo{
+    box-sizing: border-box;
+}
+.posting-comment > li:first-child .comment-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.input-comment-box textarea.input-form{
+    width: 100%;
+    min-height: 10px;
+}
+
+.posting-comment > li:first-child .comment-info {
+	display: flex;
+    flex-direction: row !important;
+}
+.story-modal h1{
+	font-family: 'NanumGothicExtraBold';
+	font-weight: 1000;
+}
+#story-data{
+	display:flex;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#read-count-icon{
+	font-size: 30px;
+	display:flex;
+	align-items: center;
+	color: var(--main-bg-color);
+}
+#read-count{
+	font-family: 'NanumGothicBold';
+	font-size: 18px;
+}
+#reg-date{
+	font-family:'NanumGothicBold';
+	font-size: 18px;
+}
+.story-data{
+	display: flex;
+	color: var(--main-bg-color);
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal-wrap{
+	border: 1px solid #EBEBEC; 
+    box-shadow: 2px 2px 2px 1.5px lightgray;
+}
+
+.input-comment-box li{
+	float:left;
+	margin :0 auto;
+	text-align:center;
+}
+.input-comment-box li:first-child{
+	width: 75%;
+	margin: 0 auto;
+}
+.input-comment-box li:last-child{
+	width: 25%;
+}

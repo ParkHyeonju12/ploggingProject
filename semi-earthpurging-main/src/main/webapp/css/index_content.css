@@ -1,0 +1,932 @@
+a {
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.banner-container>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#banner{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+.banner-container{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+.banner-container>.banner-img{
+    z-index: 1;
+    width: 100%;
+    height: 700px;
+    background-image: url(/img/index/index_banner.jpg);
+    position: absolute;
+    background-repeat: space;
+    background-position: center;
+    background-size: cover;
+}
+.banner-container>.banner-wrap{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(00,00,00,0.2);
+    z-index: 2;
+    position: absolute;
+}
+.banner-content{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner-content img{
+    width: 30%;
+    margin-top: 130px;
+    margin-bottom: 63px;
+}
+.banner-content span{
+    font-size:26px;
+    margin-top:70px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.banner-content div{
+    width: 22%;
+    margin: 0 auto;
+    height: 6%;
+    margin-top: 50px;
+}
+.banner-content div a{
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding:13px;
+    font-size: 19px;
+    line-height: 200%;
+}
+.banner-content div a:hover{
+    transition-duration: 0.8s;
+    font-size: 1.1em;
+    background-color: rgb(90,197,219);
+}
+
+
+#main{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 3600px;
+}
+.main-container{
+    width: 100%;
+    height: 3600px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.main-container>img{
+    height: 60%;
+    object-fit: cover;
+}
+.main-container>.main-title{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    height: 30%;
+    font-weight: 700;
+}
+.main-container>.main-wrap{
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(to top, #fff, black 0%, transparent);
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+}
+.main-wrap-top{
+    background-color: rgba(0,0,0,0.2);
+    padding-top: 20px;
+    height: 8%;
+    line-height: 200%;
+    margin-top: 350px;
+    opacity: 0;
+}
+.main-wrap-top>span{
+    color: white;
+    font-size: 38px;
+    line-height: 120%;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.main-wrap-top>span:nth-child(3){
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.main-wrap-bottom{
+    margin-top: 600px;
+    opacity: 0;
+}
+.main-wrap-bottom>span{
+    color: white;
+    font-size: 40px;
+    line-height: 120%;
+    font-weight: 700;
+}
+.main-title-top{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    width: 45%;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.main-title-middle{
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+    line-height: 35px;
+    opacity: 0;
+}
+.main-title-bottom{
+    margin-top: 72px;
+}
+.bolder{
+    margin-top: 20px;
+    color: white;
+    font-size: 27px;
+    line-height: 35px;
+    font-weight: bolder;
+}
+@keyframes filling {
+    from{
+        background-position: center 25%;
+    }
+    to {
+        background-position: center 50%;
+    }
+}
+.main-bottom-title {
+    background-image:  url(/img/index/index_main_bottom_title.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    color:  #FFFFFF;
+    padding-top: 20px;
+    font-size: 55px;
+    font-weight: bolder;
+    animation: filling 10s ease forwards;
+    animation-iteration-count: infinite;
+    margin-bottom: 50px;
+    height: 170px;
+    line-height: 100px;
+}
+
+.main-bottom-content{
+    width: 100%;
+    height: 600px;
+    background-color: #e5e7eb;
+}
+.main-bottom-content img{
+    margin-top: 90px;
+    width: 15%;
+    margin-bottom: 40px;
+}
+.main-bottom-content strong{
+    display: inline-block;
+    font-size: 40px;
+    color: #00AAAD;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.main-bottom-content p{
+    font-size: 26px;
+    color: #000;
+    line-height: 34px;
+}
+
+#todo{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 1050px;
+}
+.todo-container{
+    width: 100%;
+    height: 1050px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.todo-container{
+    width: 100%;
+    height: 1050px;
+}
+.todo-title{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    line-height: 300px;
+    font-size: 47px;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.todo-content{
+    background-color: white;
+    width: 100%;
+    height: 900px;
+    background-color: #e5e7eb;
+    text-align: center;
+}
+.todo-content-wrap{
+    width: 90%;
+    height: 750px;
+    margin:auto;
+}
+.todo-content-title{
+    width: 90%;
+    margin-top: 100px;
+    text-indent: 40px;
+    font-family: 'SBAggroB';
+    font-size: 40px;
+    text-align: left;
+    padding-bottom: 25px;
+}
+.todo-content-sub-title{
+    text-indent: 40px;
+    font-family: 'SBAggroL';
+    font-size: 35px;
+    text-align: left;
+    width: 90%;
+    float: left;
+    margin-bottom: 40px;
+}
+.todo-content-sub-title img{
+    width: 35%;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.todo-content-left{
+    width: 10%;
+    height: 535px;
+    display: flex;
+    align-items: center;
+    float: left;
+    border: 1px solid #e5e7eb;
+    margin-left: 50px;
+}
+.todo-content-left img{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.todo-content-img{
+    border: 1px solid #e5e7eb;
+    width: 30%;
+    height: 535px;
+    overflow: hidden;
+    float: left;
+}
+.todo-content-img img{
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.todo-content-msg{
+    width: 30%;
+    height: 485px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+    border: 1px solid #e5e7eb;
+    padding-top: 50px;
+    text-align: left;
+}
+.todo-content-msg>.name{
+    text-align: left;
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.todo-content-msg h4{
+    font-size: 30px;
+    font-family: 'SBAggroB';
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.todo-content-msg p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.todo-content-msg>a{
+    position: relative;
+}
+.todo-content-msg .todo-content-support{
+    width: 270px;
+    height: 65px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    background-color: #000;
+    border: 1px solid black;
+    border-radius: 65px;
+    position: absolute;
+    left: -25px;
+    top: -15px;
+    z-index: 5;
+}
+.todo-fake-box{
+    width: 270px;
+    height: 65px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 45px;
+    position: absolute;
+    z-index: 3;
+}
+.todo-content-msg .todo-content-support:hover{
+    left: 0px;
+    top: 0px;
+    font-size: 1.1em;
+    transition-duration: 0.5s;
+}
+
+.todo-content-right{
+    width: 10%;
+    height: 535px;
+    display: flex;
+    float: left;
+    align-items: center;
+    border: 1px solid #e5e7eb;
+}
+.todo-content-right img{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+#ploggings{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+}
+.ploggings-container{
+    width: 100%;
+    height: 850px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ploggings-title{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    line-height: 300px;
+    font-size: 47px;
+    font-weight: bold;
+}
+.plogging-content{
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 700px;
+    display: inline-block;
+    background-color: rgb(224, 224, 224);
+}
+.plogging-content-left{
+    width: 40%;
+    height: 600px;
+    float: left;
+}
+.plogging-content-left>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.plogging-content-right{
+    width: 60%;
+    height: 600px;
+    float: left;
+}
+.plogging-content-right>p{
+    margin: 45px;
+    margin-top: 150px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+.p-color-orange{
+    font-size: 22px;
+    color: rgb(230, 126, 34);
+}
+.p-color-red{
+    font-size: 22px;
+    color: rgb(231, 76, 60);
+}
+@import url('http://fonts.cdnfonts.com/css/dunggeunmo');
+@font-face {
+    font-family: 'DOSMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#myinfo{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+.myinfo-container{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.myinfo {
+    position: relative;
+}
+.myinfo-title{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    line-height: 300px;
+    font-size: 47px;
+    font-weight: bold;
+}
+.myinfo-content{
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 800px;
+    display: inline-block;
+}
+.myinfo-wrap{
+    margin: 0 auto;
+    margin-top:5%;
+    width: 80%;
+    height: 640px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+.myinfo{
+    width: 100%;
+    height: 100%;
+}
+.myinfo-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.myinfo-slide{
+    width: 100%;
+    height: 100%;
+}
+.myinfo-slide-top{
+    width: 50%;
+    margin: 0 auto;
+    height: 120px;
+    line-height: 120px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+.myinfo-slide-top span{
+    font-size: 28px;
+    color: #0078aa;
+    font-weight: 800;
+    padding: 20px;
+}
+.myinfo-slide-middle-left{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 235px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 800;
+    color: #393e46;
+    display: inline-block;
+}
+.myinfo-slide-middle{
+    width: 21%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 140px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 800;
+    color: #393e46;
+    display: inline-block;
+}
+.myinfo-slide-middle.middle{
+    width: 17%;
+    margin-left: 1.5%;
+}
+.myinfo-slide-middle.right{
+    width: 38.5%;
+    margin-left: 1.5%;
+}
+.myinfo-slide-middle-title{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #393e46;
+}
+.myinfo-slide-middle-content{
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'DOSMyungjo';
+}
+.myinfo-slide-middle-content.last{
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.myinfo-slide-middle-content span{
+    font-size: 36px;
+    font-weight: 800;
+    color: #0078aa;
+}
+.myinfo-slide-bottom{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 235px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.myinfo-slide-bottom-title{
+    text-align: left;
+    font-size: 20px;
+    height: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.myinfo-slide-bottom ul{
+    width: 100%;
+    height: 145px;
+}
+.myinfo-slide-bottom ul li{
+    width: 14%;
+    height: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: 800;
+}
+.myinfo-slide-bottom ul li .li-img{
+    width: 100%;
+    height: 70%;
+}
+.myinfo-slide-bottom ul li .li-img img{
+    margin-top: 5px;
+    height: 80%;
+}
+
+
+
+@import url('http://fonts.cdnfonts.com/css/dunggeunmo');
+@font-face {
+    font-family: 'DOSMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#ranking{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+.ranking-container{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ranking {
+    position: relative;
+}
+.ranking-title{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    line-height: 300px;
+    font-size: 47px;
+    font-weight: bold;
+}
+.ranking-content{
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 800px;
+    display: inline-block;
+}
+
+.swiper-slide>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-wrap{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 60%;
+    height: 83%;
+}
+.swiper-slide-wrap{
+    background-color: rgba(255,255,255,0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+}
+.swiper-slide-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+}
+.swiper-slide-content-top{
+    width: 100%;
+    height: 30%;
+    font-size: 35px;
+    color: #fff;
+    font-family: 'DungGeunMo', sans-serif;
+    line-height: 50px;
+}
+.swiper-slide-content-top img{
+    margin-top: 50px;
+    width: 20%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.swiper-slide-content-middle{
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+}
+.slide-content-left{
+    width: 50%;
+    height: 98%;
+    margin-top: 2%;
+    margin-left: 5%;
+    float: left;
+}
+.slide-content-left-top{
+    height: 11%;
+    font-size: 17px;
+    color: #fff;
+    font-family: 'DungGeunMo', sans-serif;
+}
+.slide-content-left-top span{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'DungGeunMo', sans-serif;
+}
+.slide-content-left-middle{
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
+.slide-content-left-middle ul{
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgba(224, 224, 224,0.7);
+}
+.slide-content-left-middle ul>li{
+    margin-top: 7px;
+    height: 75%;
+    float: left;
+    width: 32.9%;
+    font-size: 15px;
+    line-height: 180%;
+    font-family: 'DungGeunMo', sans-serif;
+    border-right: 2px solid black;
+}
+.slide-content-left-middle ul>li:last-child{
+    border: none;
+}
+.slide-content-sub{
+    width: 80%;
+    height: 40%;
+    margin: 0 auto;
+    margin-top:25px;
+    background-color: rgba(224, 224, 224,0.7);
+}
+.slide-content-sub h3{
+    font-family: 'SBAggroB';
+    line-height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+.slide-content-sub p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.slide-content-right{
+    width: 40%;
+    height: 90%;
+    margin-top: 2%;
+    float: left;
+}
+
+.slide-content-name{
+    height: 11%;
+    font-size: 17px;
+    color: #fff;
+    font-family: 'DungGeunMo', sans-serif;
+    margin-bottom: 25px;
+}
+
+.slide-content-name span{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'DungGeunMo', sans-serif;
+}
+.slide-content-img{
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.slide-content-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#chart{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+}
+.chart-container{
+    width: 100%;
+    height: 950px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.chart-title{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    line-height: 300px;
+    font-size: 47px;
+    font-weight: bold;
+    position: relative;
+}
+.chart-content{
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 750px;
+    display: inline-block;
+    position: relative;
+}
+.chart-wrap{
+    width: 1000px;
+    height: 650px;
+    padding-top: 50px;
+    margin: 0 auto;
+
+}
+
+
+#support{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+.support-container{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.support-img{
+    background-image: url(/img/index/index_support_img.jpg);
+    z-index: 1;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    background-repeat: space;
+    background-position: center;
+    background-size: cover;
+}
+.support-wrap{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(00,00,00,0.6);
+    z-index: 2;
+    position: absolute;
+}
+.support-content{
+    width: 80%;
+    height: 700px;
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.support-content>p{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.support-content>p:first-child{
+    margin-top: 300px;
+    margin-bottom: 0px;
+}
+
+.support-content div a{
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding:13px;
+    font-size: 19px;
+    line-height: 200%;
+}
+.support-content div a:hover{
+    transition-duration: 0.8s;
+    font-size: 1.1em;
+    background-color: rgb(90,197,219);
+}

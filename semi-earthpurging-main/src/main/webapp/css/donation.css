@@ -1,0 +1,367 @@
+.fc-6 {
+    color: #5AC5DB;
+}
+.bg-3 {
+    background-color: #eeeeee;
+}
+.bg-5 {
+    background-color: #0078AA;
+}
+.bc44 {
+    color: rgba(0, 120, 170, 1);
+    background-color: #fff;
+    border: 2px solid rgba(0, 120, 170, 1);
+}
+.bc4 {
+    background-color: rgba(0, 120, 170, 0.9);
+    color: #fff;
+    border: 2px solid rgba(0, 120, 170, 0.9);
+}
+.input-form {
+    width: 100%;
+    height: 60px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 0.8rem;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(229, 230, 232);
+    border-image: initial;
+    font-size: 20px;
+}
+.dona_info_wrapper>::placeholder{
+    font-weight: 100;
+    color: lightgray;
+}
+.btn {
+    border: none;
+    padding: 1rem;
+    display: inline-block;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+    font-size: 16px;
+    font-family: ns-light;
+    border-radius: 12px;
+}
+.br-none {
+    border-radius: 0;
+}
+.bs4 {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.2em;
+}
+.input_wrap{
+    /*padding-bottom: 40px;*/
+}
+.input_wrap label{
+    display:flex;
+
+    margin:30px 0 20px;
+    font-size:18px;
+    font-weight:700;
+}
+.dona_top_container{
+    width: 100%;
+    height: 200px;
+    padding:30px 0;
+    box-sizing: border-box;
+    background:var(--main-bg-color);
+}
+.dona_way_wrap h3{
+    margin:30px 0 20px;
+    font-size:18px;
+    font-weight:700;
+}
+.dona_main_container{
+    padding:50px 0;
+}
+.dona_top_header{
+    width: 1000px;
+
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.header_way_hr{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.information{
+    display: flex;
+    justify-content: end;
+}
+.information>li{
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+}
+.information>a>li{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.information>li:last-child{
+    font-weight: 900;
+}
+.welcome-ment{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    padding-left: 50px;
+}
+.dona_select_form{
+    width: 600px;
+    margin: 0 auto;
+}
+.dona_way_text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: ns-bold;
+    font-size: 25px;
+    font-weight:700;
+}
+.dona_way_text>hr{
+    background-color: #0078AA;
+    height: 1px;
+    border: 0;
+}
+.dona_way_button_wrap{
+    width: 100%;
+    height: 50px;
+    /*padding-bottom: 30px;*/
+
+}
+.dona_way_button_wrap .dona_amount_wrap{
+    height:50px;
+}
+.dona_way_button_wrap .dona_amount_wrap input[type=radio] + label{
+    height:50px;
+    line-height:48px;
+    box-sizing: border-box;
+}
+.dona_way_button_wrap>.donaBtn{
+    width: 298px;
+    height: 50px;
+    float: left;
+    border: 1px solid rgba(0, 120, 170, 1);
+    background-color: white;
+    font-weight: 800;
+    color: rgba(0, 120, 170, 1);
+    font-size: 15px;
+}
+.dona_way_button_wrap>.donaBtn:hover{
+    background-color: rgba(0, 120, 170, 1);
+    color: #fff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.dona_way_wrap>hr:nth-child(1){
+    background-color: #0078AA;
+    height: 100px;
+    border: 0;
+}
+.way_area_hr{
+    background-color: lightgray;
+    height: 1px;
+    border: 0;
+}
+select{
+    width: 100%;
+    height: 60px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.area_amount_hr{
+    background-color: lightgray;
+    height: 1px;
+    border: 0;
+    margin-top: 40px;
+}
+.dona_amount_wrap input[type=radio]{
+    display: none;
+}
+.dona_amount_wrap input[type=radio]+label{
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #0078AA;
+    width: 198px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #fff;
+    color: #0078AA;
+    font-weight: 800;
+    float: left;
+}
+.dona_amount_wrap input[type=radio]:checked+label {
+    background-color:var(--main-bg-color);
+    color:#fff;
+}
+.dona_amount_wrap input[type=radio]+label:hover{
+    background-color: #0078AA;
+    color: #fff;
+    transition-duration: 0.5s;
+}
+.dona_amount_wrap>#btn_6{
+    width: 200px;
+    box-sizing: border-box;
+    height: 62px;
+    padding-left: 15px;
+    border-color: lightgray;
+    font-size: 15px;
+}
+.dona_amount_wrap>#btn_6::placeholder{
+    font-size: 15px;
+}
+.dona_background{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+}
+.dona_amount_Allwrap{
+    padding-bottom: 40px;
+}
+.back_text{
+    text-align: center;
+
+    color: #0078AA;
+    font-weight: 500;
+    display: none;
+}
+.dona_background>div{
+    padding: 15px;
+    text-align: right;
+    line-height:1.75;
+}
+.dona_background>div b{
+    font-weight:800;
+    font-size:18px;
+}
+.amount_sum_hr{
+    background-color: lightgray;
+    height: 1px;
+    border: 0;
+    margin-top: 60px;
+}
+.summary_wrap{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+}
+.summary_wrap>p{
+    line-height: 80px;
+    font-family: ns-bold;
+    font-size: 20px;
+}
+.sum_next_hr{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: lightgray;
+    height: 1px;
+    border: 0;
+}
+.nextBtn_wrap{
+    padding-bottom: 100px;
+
+}
+.nextBtn{
+    text-align: center;
+    height: 70px;
+    line-height: 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.summary_num{
+    color: #0078AA;
+    font-size: 40px;
+    font-weight: 700;
+}
+.summary_num >span:first-child{
+    font-size:22px;
+    font-weight:800;
+}
+.dona_info_text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*font-family: ns-bold;*/
+    font-size: 25px;
+    font-weight:700;
+}
+.dona_info_header_hr{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #0078AA;
+    height: 1px;
+    border: 0;
+}
+.dot{
+    font-size: 20px;
+}
+.add_comment{
+    margin-top:10px;
+    font-size: 13px;
+    color: gray;
+}
+.email_input_wrap{
+    padding-bottom: 60px;
+}
+#dona_email{
+    padding-bottom: 20px;
+}
+.info_agree_check{
+    display: flex;
+    /*justify-content: space-between;*/
+    padding-top: 15px;
+}
+.info_agree_check>div label{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.info_agree_check>div + div{
+    margin-left:15px;
+}
+[type=checkbox]{
+    float: left;
+    height: 20px;
+    width: 15px;
+}
+.info_guide_section{
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.first_guide{
+    font-size: 15px;
+    font-family: ns-bold;
+}
+.second_guide{
+    font-size: 15px;
+    font-family: ns-light;
+}
+.finalBtn_wrap{
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+.finalBtn{
+    text-align: center;
+    height: 70px;
+    line-height: 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.dona_info_container{
+    display: none;
+}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.page-content{
+	width: 1200px;
+}
+.page-title{
+	width: 260px;
+	margin: 0 auto;
+	font-size: 35px;
+	font-weight: 900;
+	text-align: center;
+	padding: 60px 0px;
+}
+#noticeWrite{
+	margin: 0 auto;
+	width: 900px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.th{
+	font-weight: 700;
+	background-color: rgba(0, 173, 181, 0.1);
+}
+.tbl th,
+.tbl td{
+	border: 1px solid rgb(229, 230, 232);
+}
+.writeBtn{
+	width: 866px;
+	height: 60px;
+	border: none;
+	background-color: #5AC5DB;
+}
+.writeBtn:hover{
+	background-color: #0078AA;
+	cursor: pointer;
+}

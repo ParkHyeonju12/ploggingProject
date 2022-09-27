@@ -1,0 +1,320 @@
+@charset "UTF-8";
+body {
+  background: url(../img/sub_bg.png) left top #05081a;
+  background-size: auto auto;
+  text-align: center;
+  font-family: DungGeunMo;
+  color: white;
+}
+
+#quick {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  color: #fff;
+  z-index: 1000;
+}
+.top_btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(93, 93, 93, 0.5);
+  cursor: pointer;
+  margin-top: 30%;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top_btn1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 30%;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plog_logo{
+  width: 80px;
+}
+.sub_wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.top_title{
+    border: 5px solid #F2DF3A;
+    border-radius: 70px;
+    padding: 7px;
+    margin-bottom: 60px;
+}
+.border2 {
+  border: 5px solid #b91a1a;
+  border-radius: 60px;
+  padding: 7px;
+}
+.border3 {
+  border: 5px solid #3AB4F2;
+  border-radius: 50px;
+  padding: 40px;
+}
+.top>h5 {
+  color: #3AB4F2;
+  font-size: 4em;
+}
+.top{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 30px;
+}
+
+.form_wrap {
+  padding: 60px 0 30px 0;
+  background: #05081a;
+  border: 5px dotted #fff;
+  padding: 50px 75px 100px 75px;
+  border-radius: 50px;
+}
+.form_title {
+font-size: 2.8125em;
+margin-bottom: 40px;
+text-align: center;
+}
+.form_title img {
+  vertical-align: text-top;
+  margin: 0 10px;
+  animation: rotation 1.3s infinite linear;
+}
+.form_box {
+  margin-bottom: 50px;
+}
+.form_box .input_grey {
+  position: relative;
+  z-index: 3;
+  font-size: 22px;
+  font-family: inherit;
+  height: 60px;
+  padding: 0 20px;
+  background: #b3b3b3;
+  color: #111;
+  width: 100%;
+  border-top:  2px solid #767575;
+  border-left: 2px solid #767575;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.input_grey {
+  width: 100px;
+  height: 50px;
+  font-size: 2.5em;
+  text-align: center;
+}
+.flag_title::before {
+  content: "";
+  display: block; 
+  width: 18px;
+  height: 29px;
+  background: url(/img/flag.png) no-repeat center center;
+  background-size: 18px 29px;
+  left: -35px;
+  position: absolute;
+}
+.flag_title {
+  margin-bottom: 20px;
+  font-size: 1.875em;
+  color: #ffda0f;
+  position: relative;
+  margin-right: 10px;
+}
+.fff {
+  line-height: 60px;
+  font-size: 1.2em;
+}
+.org {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+}
+
+.shadow {
+  position: absolute; 
+  color: #b91a1a; 
+  top: 2px; 
+  left: -3px;
+  z-index: 1;
+}
+.yellow{
+  color: #F2DF3A;
+}
+.flex {
+  display: flex;
+  width: 100%;
+}
+.flex1{
+  justify-content: center;
+}
+.input_grey.h100 {
+  height: 100px;
+  padding: 15px 20px;
+}
+.mt40{
+  padding-top: 40px;
+}
+#p_addr{
+  line-height: 65px;
+}
+input[type="checkbox"]{
+  width: 30px; /*Desired width*/
+  height: 30px; /*Desired height*/
+  cursor: pointer;
+}
+.ft {
+  margin: auto 0;
+  margin-bottom: 20px;
+}
+.person_chk{
+  margin-bottom: 50px;
+}
+
+.person_detail{
+  font-size: 1.6em;
+  color: #767575;
+  cursor: pointer;
+}
+
+.button_text_container {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.6em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 50px;
+  border: 5px solid #e9c70c;
+  overflow: hidden;
+  transition: all 0.7s;
+  position: relative;
+  cursor: pointer;
+  padding: 20px;
+  background: transparent;
+}
+.form_bt {
+  justify-content: space-between;
+}
+.button_su_inner{
+  display: flex;
+  justify-content: center;
+} 
+.button_su:hover {
+border: 5px sol;
+color: #fff;
+}
+.prevBtn:hover, .nextBtn:hover {
+  background-color: #b91a1a;
+  color: white;
+}
+/* footer */
+footer.noto {
+  text-align: center;
+  background: #05081a;
+  font-size: 15px;
+  color: #fff;
+  padding-bottom: 20px;
+  transform: rotate(-0.03deg);
+}
+.noto {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #333;
+}
+.popup{
+  display: none;
+  padding: 30px;
+}
+.copy{
+  color: #7a7a7a;
+}
+.top>div:nth-child(2){
+  line-height: 20px;
+}
+.borderR {
+  height: 70px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 1px solid #afafafc7;
+}
+.borderL {
+  border-left: 1px solid #7a7a7a;
+}
+.person_detail {
+  margin-top: 5%;
+  font-size: 14px;
+  color: #333;
+  margin-top: 3%;
+  font-size: 13px;
+  background: #b3b3b3;
+  display: inline-block;
+  padding: 0.7% 2%;
+  border-radius: 5px;
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #5b5959;
+  border-bottom: 2px solid #5b5959;
+  cursor: pointer;
+}
+.popup{
+  display: none;
+  width: 90%;
+  height: 80vh;
+  position: fixed;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
+  color: #424242;
+  padding: 6% 5%;
+  font-size: 12px;
+  line-height: 1.5rem;
+  border-radius: 15px;
+  z-index: 99999;
+  overflow-y: scroll;
+  line-height: 1.5rem;
+}
+.zwicon-close{
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  background-color: #b91a1a;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 70%;
+}
+.x_btn{
+  text-align: right;
+  margin: 15px;
+  cursor: pointer;
+}
+.zwicon-close:hover {
+  background-color: red;
+}
+.cont{
+  text-align: left;
+}
+.personal_pop{
+  z-index: 300;
+}
+
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('../font/DungGeunMo.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  @keyframes rotation {100%{transform:rotatey(360deg);}}

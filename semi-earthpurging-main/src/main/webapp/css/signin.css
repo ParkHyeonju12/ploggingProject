@@ -1,0 +1,178 @@
+.input-form {
+    width: 100%;
+    height: 60px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 0.8rem;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(229, 230, 232);
+    border-image: initial;
+}
+.btn {
+    border: none;
+    padding: 1rem;
+    display: inline-block;
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+    font-size: 16px;
+    font-family: ns-light;
+    border-radius: 12px;
+}
+.btn.br-none {
+    border-radius: 0;
+}
+.bc55 {
+    color: rgb(90, 197, 219);
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(90, 197, 219);
+    border-image: initial;
+}
+.bc55:hover {
+    background-color: rgba(90, 197, 219, 1);
+    color: #fff;
+    cursor: pointer;
+}
+.bs4 {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.2em;
+}
+.login_header_top{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+}
+.login_header_top>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+.login_header_info>a{
+    text-decoration: none;
+    color: black;
+    font-family: ns-thin;
+}
+.login_header_top>ul>li:last-child{
+    font-family: ns-bold;
+}
+.login_main_container{
+    width: 500px;
+    margin: 100px auto;
+
+}
+.login_introduce_main{
+    margin-bottom:30px;
+}
+.main_intro{
+    border-left:8px solid var(--main-bg-color);
+    padding-left:15px;
+    color: #5AC5DB;
+    font-size: 34px;
+    font-weight:700;
+    color:var(--main-bg-color);
+    line-height:1;
+}
+.sub_intro{
+    padding-top: 25px;
+}
+.id_input_wrap{
+}
+.id_input_wrap>#id{
+    padding:0px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.id_input_wrap>#id::placeholder{
+    color: darkgrey;
+    font-weight: 100;
+}
+.pw_input_wrap{
+    padding-top: 15px;
+    position: relative;
+}
+
+.pw_input_wrap>#pw{
+    padding:0px;
+    font-size: 20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+.pw_input_wrap>#pw::placeholder{
+    color: darkgrey;
+    font-weight: 100;
+}
+.pw_input_wrap>span>img{
+    width: 30px;
+    padding-top: 15px;
+    position: absolute;   
+    right: 20px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor: pointer;
+}
+.save_find_wrap>label>input[type="checkbox"]{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.save_find_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.save_find_wrap > label{
+    display:flex;
+    align-items: center;
+}
+.save_find_wrap a{
+    color: darkgrey;
+}
+.loginBtnWrap{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+.loginBtnWrap>input{
+    width: 100%;
+    height: 50px;
+}
+.signUpBtnWrap{
+    padding-top: 20px;
+}
+.signUpBtnWrap>a{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.anotherLoginLine{
+    margin-top: 50px;
+    background-color: lightgray;
+    height: 1px;
+    border: 0;
+}
+.anotherLoginTitle{
+    padding-top: 30px;
+    font-family: ns-bold;
+    font-size: 17px;
+}
+.anotherLoginIconWrap img{
+    width: 60px;    
+}
+
+.iconWrap{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconWrap div{
+    text-align: center;
+}

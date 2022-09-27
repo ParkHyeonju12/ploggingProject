@@ -1,0 +1,45 @@
+.storyFrm{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.upload-header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.upload-header>div{
+    margin: 0 auto;
+    text-align: center;
+}
+.logo-img{
+    width: 100px;
+    padding: 30px 0px;
+}
+.storyWrite{
+    padding-top: 50px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 4px;
+    border: 1px solid #EBEBEC; 
+    box-shadow: 1px 1px 1px 1.5px lightgray;
+}
+#storyFrm{
+    padding: 80px 0px;
+}
+#story-img-viewer{
+    min-height: 50px;
+    border : 1px solid #EBEBEC;
+}
+.storyWrite tr:first-child>td{
+    border-bottom: 1px solid #EBEBEC;
+}
+.storyWrite:last-child tr .btn{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+}
+/* .storyWrite:last-child tr .btn:hover{
+    background-color: #fff;
+    color: #6ACBDF;
+} */

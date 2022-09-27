@@ -1,0 +1,136 @@
+.page-content{
+    width: 100%;
+    height: 3200px;
+    margin-top: 100px;
+}
+.page-content-img{
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.page-content-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.page-content-map{
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+}
+.page-content-map>.map-title{
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.page-content-map>iframe{
+    width: 700px;
+    height: 600px;
+    padding-bottom: 50px;
+}
+.page-content-apply{
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+}
+.page-content-apply>.apply-title{
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.apply-content{
+    padding-bottom: 100px;
+}
+.apply-content ul{
+    height: 100%;
+    width: 100%;
+}
+.apply-content ul li{
+    height: 8%;
+    width: 100%;
+}
+.apply-content ul .apply-join{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.apply-content ul li:nth-child(6){
+    margin-bottom: 40px;
+}
+.apply-join-sub{
+    font-size: 14px;
+}
+.red{
+    color: red;
+}
+.apply-join-input{
+    margin-bottom: 20px;
+}
+.apply-join-input label{
+    display: inline-block;
+}
+.apply-join-input{
+    width: 50%;
+    height: 50px;
+}
+#plogging_email{
+    width: 20%;
+}
+.apply-join-domain-list{
+    width: 20%;
+    height: 50px;
+    font-size: 14px;
+    border: 1px solid pink;
+}
+input.box {
+    width: 13.5%;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    padding: 5px 0 5px 10px;
+    border: 1px solid black;
+    color: #383838;
+    background-color: #ffffff;
+}
+select.box {
+    width: 13.5%;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    padding: 5px 0 5px 10px;
+    border: 1px solid black;
+    color: #383838;
+    background-color: #ffffff;
+}
+
+
+.apply-join-input-check{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+.button-submit{
+    height: 50px;
+    line-height: 50px;
+    width: 30%; 
+    margin: 0 auto;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20px;
+    color: white;
+    border:none;
+    background-color: rgb(90,197,219);
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-submit:hover{
+    background-color: #0078AA;
+    border: none;
+    transition-duration: 0.8s;
+}

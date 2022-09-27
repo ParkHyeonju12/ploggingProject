@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/*inquiryList*/
+.inquiry-wrap{
+	width: 900px;
+	margin: 0 auto;
+}
+.inquiry-wrap>span {
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	background-color: #c1c1c1;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: 700;
+}
+#inquiry-tbl{
+	width: 900px;
+	margin: 0 auto;
+}
+#inquiry-tbl tr th{
+	font-weight: 700;
+}
+.inquiry-wrap>span>a{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	background-color: #eeeeee6;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: 700;
+}
+#inquiry-tbl tr th{
+	background-color: var(--point-color-blue);
+}
+.inquiry-wrap span a:hover{
+	background-color: #0078AA;
+	cursor: pointer;
+}
+
+/*inquiryView*/
+.tbl th,
+.tbl td{
+	border: 1px solid rgb(229, 230, 232);
+}
+#inquiryView tr:nth-of-type(6) th{
+	border: none;
+} 
+.btn{
+	background-color: #5AC5DB;
+}
+.btn:hover{
+	background-color: #0078AA;
+	cursor: pointer;
+}
+.delBtn{
+	height: 48px;
+	line-height: 10px;
+}
+.commentBtn{
+	margin-left: 1130px;
+}
+.inputCommentBox>form>ul>li:nth-of-type(1)>div{
+	font-weight: 900;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+
+
+
+/*updateInquiryFrm*/
+#page-content{
+	width: 900px;
+	margin: 0 auto;
+}
+.th{
+	background-color: #0078AA;
+	font-weight: 700;
+}
+#inquiry-content{
+	width: 100%;
+	min-height: 300px;
+    text-align: left;
+}
+.updateBtn{
+	width: 300px;
+}
+#inquiryUpdateFrm tr:nth-of-type(4) th{
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+#updateInquiryTitle{
+	width: 230px;
+}
+
+
+/*inquiryFrm*/
+.inquiry-title{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.inquiryFrm-wrap{
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+.inquiry-tbl th,
+.inquiry-tbl td{
+	border: 1px solid rgb(229, 230, 232);
+}
+#inquiryWrite tr th{
+	height: 50px;
+	background: var(--point-color-blue);
+}
+.inquiryFrm-wrap>span>a{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	background-color: #5AC5DB;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: 700;
+}
+#inquiryWrite{
+	width: 700px;
+	margin: 0 auto;
+}
+.inquiry-tbl tr td>select{
+	width: 98%;
+	height: 48px;
+}
+.inquiry-tbl tr td>input{
+	width: 98%;
+	height: 45px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+.inquiry-tbl tr td>textarea{
+	width: 98%;
+	height: 45px;
+}
+
+#inquiryWrite tr:nth-of-type(7)>td>div {
+	padding-top: 20px;
+	height: 34px;
+}
+#inquiryWrite tr:nth-of-type(8)>th>button{
+	width: 300px;
+	height: 55px;
+}
+#inquiryWrite tr:nth-of-type(5)>th{
+	
+}
+#inquiryWrite tr:nth-of-type(7) th{
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+}
+#inquiryWrite tr:nth-of-type(8) th{
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+}
+#inquiryWrite tr:nth-of-type(6) td{
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+
+#inquiryWrite tr:nth-of-type(6) td>div{
+	height: 40px;
+	padding-top: 20px;
+}
+.page-title3{
+	color: #00aaad;
+	font-size: 35px;
+	font-weight: 900;
+}
+.inquiryFrm-wrap span a:hover{
+	background-color: #0078AA;
+	cursor: pointer;
+
+}
+
+
+
+
